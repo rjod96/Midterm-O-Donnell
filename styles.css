@@ -1,0 +1,12 @@
+.container{
+  max-width: 600px;
+  background-color: #FFF5EE;
+  margin: auto;
+  padding-left: 75px;
+  padding-right: 75px;
+  border-style: hidden;
+
+}
+body {
+  background-color: gray;
+}
