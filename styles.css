@@ -10,3 +10,14 @@
 body {
   background-color: gray;
 }
+.left-column {
+  float:left;
+  overflow: auto;
+  width:50%;
+}
+.right-column {
+  float: right;
+  overflow:auto;
+  width: 50%;
+
+}
