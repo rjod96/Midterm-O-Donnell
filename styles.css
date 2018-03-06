@@ -14,18 +14,57 @@ body {
   float:left;
   overflow: auto;
   width:50%;
+  font-family: Garamond; /*changed font family to garamond*/
+  text-transform: capitalize; /* capitlalized*/
+  font-weight: bolder; /* changed font weight*/
+  font-stretch: condensed; /* changed to condense text*/
+
+}
+.byline {
+  color: purple; /*changed color to purple*/
+  font-size: 20px;/* changed font size*/
+  font-variant: small-caps; /*changed font variant*/
+  text-decoration: underline; /* added text decoration */
+  font-family: sans-serif; /* changed font family*/
+}
+.publish-time {
+  font-size: 15px; /* changed font size*/
+  font-variant: small-caps; /* added font variant */
+  color: purple; /* changed color to purple */
 }
 .right-column {
   float: right;
   overflow: auto;
   width: 50%;
-}
-@@media (min-width:650px) {
+  font-family: garamond; /*changed font family*/
+  font-weight: bolder; /* changed font-weight*/
+  font-stretch: condensed; /* changed to condense text*/
 
 }
+@@media (min-width:650px) {
+}
 h2 {
-  text-decoration: underline;
-  font-family: monospace;
-  color: purple;
-  
+  text-decoration: underline; /*added text decoration*/
+  font-family: monospace; /* added font family*/
+  color: purple; /*changed color to purple*/
+  text-decoration-color: pink; /*changed underline to pink*/
+  font-size: 40px; /*changed font size to 40px*/
+}
+p {
+  font-family: georgia; /*changed font-family*/
+  font-weight: bolder; /* changed font-weight*/
+  font-stretch: semi-expanded; /* expanded font*/
+  border-spacing: inherit;/* changed border spacing*/
+  border-bottom: groove; /* changed border bottom*/
+  border-top: groove; /* changed border top*/
+  border-right: solid; /* changed border right*/
+  border-left: solid; /* changed border left*/
+  border-color: #FFB6C1;/* changed border color*/
+}
+h1 {
+  font-family: monospace; /*changed font family */
+  color: purple; /*changed color to purple */
+  text-decoration: underline; /* added underline*/
+  text-decoration-color: pink; /* changed to pink*/
+  font-size: 40px; /* altared font size*/
 }
